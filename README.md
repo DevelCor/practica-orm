@@ -62,3 +62,44 @@ Descripción del proyecto.
     php artisan serve
     ```
     Ahora deberías poder acceder a la aplicación en `http://localhost:8000`.
+
+## API
+
+### Agregar Movimiento de Entrada
+
+**URL:** `/movimientos/entrada`  
+**Método:** `POST`  
+**Datos requeridos:**
+- `producto_id`: ID del producto
+- `cantidad`: Cantidad a agregar
+
+### Agregar Movimiento de Entrada (SQL)
+
+**URL:** `/movimientos/entrada-sql`  
+**Método:** `POST`  
+**Datos requeridos:**
+- `producto_id`: ID del producto
+- `cantidad`: Cantidad a agregar
+
+### Agregar Movimiento de Salida
+
+**URL:** `/movimientos/salida`  
+**Método:** `POST`  
+**Datos requeridos:**
+- `producto_id`: ID del producto
+- `cantidad`: Cantidad a retirar
+
+### Agregar Movimiento de Salida (SQL)
+
+**URL:** `/movimientos/salida-sql`  
+**Método:** `POST`  
+**Datos requeridos:**
+- `producto_id`: ID del producto
+- `cantidad`: Cantidad a retirar
+
+### Consultar Producto
+
+**URL:** `/productos/{id}`  
+**Método:** `GET`  
+**Datos requeridos:**
+- `id`: ID del producto
