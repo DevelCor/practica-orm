@@ -47,17 +47,7 @@ Descripción del proyecto.
     php artisan migrate
     ```
 
-8. (Opcional) Si tienes datos de prueba, puedes ejecutar los seeders de la base de datos:
-    ```
-    php artisan db:seed
-    ```
-
-9. Compila los assets de JavaScript y CSS:
-    ```
-    npm run dev
-    ```
-
-10. Inicia el servidor de desarrollo de Laravel:
+8. Inicia el servidor de desarrollo de Laravel:
     ```
     php artisan serve
     ```
