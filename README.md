@@ -62,7 +62,3 @@ Descripción del proyecto.
     php artisan serve
     ```
     Ahora deberías poder acceder a la aplicación en `http://localhost:8000`.
-
-## Pruebas
-
-Para ejecutar las pruebas, usa el comando:
