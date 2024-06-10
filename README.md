@@ -7,7 +7,7 @@ Descripción del proyecto.
 - PHP >= 7.3
 - Composer
 - Node.js y NPM
-- Base de datos MySQL (o tu base de datos preferida)
+- Base de datos MySQL
 
 ## Instalación
 
