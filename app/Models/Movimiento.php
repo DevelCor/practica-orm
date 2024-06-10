@@ -26,4 +26,15 @@ class Movimiento extends Model
     {
         return $date->format('Y-m-d H:i:s');
     }
+
+    /**
+     * remove created_at and updated_at from toArray
+     * @return array
+     */
+    public function toArray()
+    {
+        $array = parent::toArray();
+        unset($array['created_at'], $array['updated_at']);
+        return $array;
+    }
 }
